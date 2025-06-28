@@ -1,0 +1,43 @@
+
+  #successModal .modal-dialog {
+    max-width: 400px;
+    margin: 1.75rem auto;
+  }
+
+  #successModal .modal-content {
+    height: auto !important;
+    max-height: none !important;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+
+  #successModal .modal-body {
+    padding: 2rem;
+  }
+
+  #successModal.modal {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  
+  .modal-dialog {
+    max-width: 400px;
+    margin: 1.75rem auto;
+  }
+
+  .modal-content {
+    height: auto !important;
+    max-height: none !important;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+
+  .modal-body {
+    padding: 2rem;
+  }
+
+  .modal {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }

@@ -13,19 +13,20 @@
 
 
     <title>SAMEZA</title>
-    <link rel="stylesheet" href="assets/dev-icons/css/devicon.min.css">
-    <link rel="stylesheet" href="assets/font-awesome-solid/../css/fontawesome.min.css">
-    <link rel="stylesheet" href="assets/font-awesome-solid/css/solid.min.css">
-    <link rel="stylesheet" href="assets/themify/css/themify-icons.css">
-    <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="assets/parallax/jarallax.css">
-    <link rel="stylesheet" href="assets/animatecss/animate.css">
-    <link rel="stylesheet" href="assets/dropdown/css/style.css">
-    <link rel="stylesheet" href="assets/socicon/css/styles.css">
-    <link rel="stylesheet" href="assets/theme/css/style.css">
+    <link rel="stylesheet" href="./assets/dev-icons/css/devicon.min.css">
+    <link rel="stylesheet" href="./assets/font-awesome-solid/../css/fontawesome.min.css">
+    <link rel="stylesheet" href="./assets/font-awesome-solid/css/solid.min.css">
+    <link rel="stylesheet" href="./assets/themify/css/themify-icons.css">
+    <link rel="stylesheet" href="./assets/web/./assets/mobirise-icons2/mobirise2.css">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="./assets/parallax/jarallax.css">
+    <link rel="stylesheet" href="./assets/animatecss/animate.css">
+    <link rel="stylesheet" href="./assets/dropdown/css/style.css">
+    <link rel="stylesheet" href="./assets/socicon/css/styles.css">
+    <link rel="stylesheet" href="./assets/theme/css/style.css">
+    <link rel="stylesheet" href="./assets/css/modalform.css">    
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700&display=swap"
         as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
@@ -417,56 +418,80 @@
             </div>
         </div>
     </section>
-
-<section data-bs-version="5.1" class="form5 cid-uEUCgvXLxx" id="Cotiza">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-12 content-head">
-                <div class="mbr-section-head mb-5">
-                    <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
-                        SOLICITA TU COTIZACIÓN<br><strong>¡GRATIS!<br></strong><strong><br></strong>
-                    </h3>
+    <section data-bs-version="5.1" class="form5 cid-uEUCgvXLxx" id="Cotiza">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 content-head">
+                    <div class="mbr-section-head mb-5">
+                        <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+                            SOLICITA TU COTIZACIÓN<br><strong>¡GRATIS!<br></strong><strong><br></strong>
+                        </h3>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
-                <!-- FORMULARIO CON FORM SUBMIT -->
-                <form action="https://formsubmit.co/sameza259@gmail.com" method="POST" class="mbr-form form-with-styler" data-form-title="Form Name">
-    <input type="hidden" name="_captcha" value="false">
-    <input type="hidden" name="_next" value="https://tusitio.com/gracias.html">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 mx-auto mbr-form" data-form-type="formoid">
+                    <!-- FORMULARIO -->
+                    <form id="cotizacion-form" action="https://formsubmit.co/sameza259@gmail.com" method="POST"
+    class="mbr-form form-with-styler" data-form-title="Form Name">
+<input type="hidden" name="_subject" value="Nueva solicitud de cotización desde el sitio web">
 
-    <div class="row">
-        <div hidden="hidden" data-form-alert="" class="alert alert-success col-12">
-            ¡Gracias! En breve, nos comunicaremos contigo
-        </div>
-        <div hidden="hidden" data-form-alert-danger="" class="alert alert-danger col-12">
-            Oops...! some problem!
-        </div>
-    </div>
+    <input type="hidden" name="_redirect" value="false">
+    <input type="hidden" name="_captcha" value="false">
+    <input type="hidden" name="_next" value="#">
+
     <div class="dragArea row">
         <div class="col-md col-sm-12 form-group mb-3" data-for="name">
-            <input type="text" name="name" placeholder="Nombre" data-form-field="name" class="form-control" id="name-Cotiza" required>
+            <input type="text" name="name" placeholder="Nombre" data-form-field="name" class="form-control"
+                id="name-Cotiza" required>
         </div>
         <div class="col-md col-sm-12 form-group mb-3" data-for="email">
-            <input type="email" name="email" placeholder="Correo Electrónico" data-form-field="email" class="form-control" id="email-Cotiza" required>
+            <input type="email" name="email" placeholder="Correo Electrónico" data-form-field="email"
+                class="form-control" id="email-Cotiza" required>
         </div>
         <div class="col-12 form-group mb-3" data-for="message">
-            <textarea name="message" placeholder="Mensaje" data-form-field="message" class="form-control" id="textarea-Cotiza" required></textarea>
+            <textarea name="message" placeholder="Mensaje" data-form-field="message" class="form-control"
+                id="textarea-Cotiza" required></textarea>
         </div>
         <div class="col-lg-12 col-md-12 col-sm-12 align-center mbr-section-btn">
-            <button type="submit" class="btn btn-success display-7">Enviar<br></button>
+            <button type="submit" class="btn btn-success display-7">Enviar</button>
         </div>
     </div>
 </form>
 
-                <!-- FIN FORMULARIO -->
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- MODAL DE ÉXITO -->
+    <div class="modal fade" id="successModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content text-center p-4">
+                <div class="modal-body">
+                    <div style="font-size: 3rem; color: #28a745;">✔️</div>
+                    <h5 class="mt-3">¡Gracias por tu mensaje!</h5>
+                    <p>Nos pondremos en contacto contigo pronto.</p>
+                    <button type="button" class="btn btn-success mt-2 px-4" data-bs-dismiss="modal">Cerrar</button>
+                </div>
             </div>
         </div>
     </div>
-</section>
-
-
+    
+    <!-- MODAL DE ERROR -->
+    <div class="modal fade" id="errorModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content text-center p-4">
+                <div class="modal-body">
+                    <div style="font-size: 3rem; color: #dc3545;">❌</div>
+                    <h5 class="mt-3">Error al enviar</h5>
+                    <p id="errorText">Ocurrió un error inesperado.</p>
+                    <button type="button" class="btn btn-danger mt-2 px-4" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <section data-bs-version="5.1" class="contacts03 cid-uEUCgvXqh9 mbr-parallax-background" id="Info">
 
 
@@ -624,8 +649,63 @@
     <script src="assets/dropdown/js/navbar-dropdown.js"></script>
     <script src="assets/theme/js/script.js"></script>
     <script src="assets/dentaura-preloader/dentaura-preloader.js"></script>
+    
+    <!-- VALIDACIÓN Y ENVÍO -->
+    <script>
+        document.getElementById('cotizacion-form').addEventListener('submit', function (e) {
+            e.preventDefault();
 
+            const name = document.getElementById('name-Cotiza').value.trim();
+            const email = document.getElementById('email-Cotiza').value.trim();
+            const message = document.getElementById('textarea-Cotiza').value.trim();
 
+            const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-z]{2,}$/;
+            const nombreValido = name.length >= 3;
+            const mensajeValido = message.length >= 10;
+            const emailValido = emailRegex.test(email) && email.length >= 6 && !/^\d+@/.test(email);
+
+            const showErrorModal = (mensaje) => {
+                document.getElementById('errorText').textContent = mensaje;
+                const errorModal = new bootstrap.Modal(document.getElementById('errorModal'));
+                errorModal.show();
+            };
+
+            if (!nombreValido) {
+                showErrorModal("Por favor, escribe un nombre válido (mínimo 3 letras).");
+                return;
+            }
+
+            if (!emailValido) {
+                showErrorModal("Ingresa un correo electrónico válido. No uses correos falsos como '123@...'.");
+                return;
+            }
+
+            if (!mensajeValido) {
+                showErrorModal("El mensaje debe tener al menos 10 caracteres.");
+                return;
+            }
+
+            // Si pasa todas las validaciones, enviamos con fetch
+            fetch(this.action, {
+                method: this.method,
+                body: new FormData(this),
+                headers: { 'Accept': 'application/json' }
+            })
+                .then(response => {
+                    if (response.ok) {
+                        const modal = new bootstrap.Modal(document.getElementById('successModal'));
+                        modal.show();
+                        this.reset();
+                    } else {
+                        showErrorModal("No se pudo enviar tu mensaje. Intenta más tarde.");
+                    }
+                })
+                .catch(error => {
+                    showErrorModal("No se pudo conectar con el servidor. Verifica tu conexión e intenta de nuevo.");
+                });
+        });
+    </script>
+    
     <div id="scrollToTop" class="scrollToTop mbr-arrow-up"><a style="text-align: center;"><i
                 class="mbr-arrow-up-icon mbr-arrow-up-icon-cm cm-icon cm-icon-smallarrow-up"></i></a></div>
     <input name="animation" type="hidden">
